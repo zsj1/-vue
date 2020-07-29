@@ -1,0 +1,30 @@
+{
+  "name": "nue-cli",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nue-cli": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.5",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
